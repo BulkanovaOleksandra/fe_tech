@@ -1,0 +1,72 @@
+body {
+    background-color: aquamarine;
+    color: #000000;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+}
+
+/* Header */
+.header {
+    width: 70%;
+    height: 10vh;
+    background-color: aqua;
+    align-self: flex-end; /* вирівнює вправо */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Основний контент */
+.content {
+    flex: 1;
+    display: flex;
+}
+
+.image {
+    width: 30%;
+    /* height: 80vh; */
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main {
+    width: 70%;
+    height: 70vh;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Footer */
+.footer {
+    display: flex;
+    height: 20vh;
+}
+
+.footer1 {
+    width: 70%;
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer2 {
+    width: 30%;
+    background-color: rgb(255, 150, 241);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
