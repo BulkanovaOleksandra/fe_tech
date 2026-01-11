@@ -1,0 +1,11 @@
+body{
+    background-color: white;
+}
+
+#lab4, p:first-of-type{
+    cursor: pointer;
+}
+
+button{
+    cursor: pointer;
+}
